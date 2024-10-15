@@ -1,0 +1,91 @@
+.team-wrapper {
+  position: relative;
+  padding: 90px 0 90px 0;
+}
+
+.team-main .team-data {
+  background-image: url(../../../public/images/teambg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 56px 48px 56px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+}
+
+.team-data .title-box {
+  flex: 0 0 174px;
+  padding: 9px 0 0 0;
+}
+
+.team-data .team-box {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-box .team-item {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  flex: 0 0 126px;
+}
+
+.team-item .team-img img {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.team-item .team-img {
+  width: 100%;
+}
+
+/* ---------- responsive css ----------- */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .team-main .team-data { padding: 50px 48px 50px 80px; gap: 62px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .team-box .team-item { flex: 0 0 122px; }
+  .team-main .team-data { padding: 48px 48px 48px 74px; gap: 62px; }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-wrapper { padding: 44px 0 62px 0; } 
+  .togather-wrapper { padding: 36px 0 48px 0; } 
+  .team-data .title-box { flex: 0 0 160px; } 
+  .team-box .team-item { flex: 0 0 112px; } 
+  .team-main .team-data { padding: 38px 48px 38px 40px; gap: 42px; }
+}
+
+
+@media (max-width: 767px) {
+  .team-main .team-data {background-image: url(../../../public/images/teamM.png);}
+  .team-wrapper { padding: 32px 0 18px 0; } 
+  .team-data .team-box { justify-content: center; column-gap: 12px; row-gap: 18px; } 
+  .team-box .team-item { gap: 8px; } 
+  .team-data .title-box { flex: 0 0 0; text-align: center;padding: 0 0 0 0; } 
+  .team-main .team-data { padding: 28px 18px 48px 18px; flex-direction: column; gap: 28px; justify-content: center; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .team-box .team-item {
+    flex: 0 0 100px;
+  }
+}
+
+@media (min-width: 240px) and (max-width: 575px) {
+  .team-box .team-item {
+    flex: 0 0 70px;
+  }
+}
+

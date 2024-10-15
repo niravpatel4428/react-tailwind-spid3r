@@ -1,0 +1,310 @@
+/* ------- banner wrapper -------- */
+.banner-wrapper-1 {
+  position: relative;
+  /* overflow: hidden;
+  background-image: url(../../../public/images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.banner-wrapper-1 .banner-main {
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-wrapper-1 .banner-details .banner-logo {
+  margin: 0 0 314px 0;
+  width: 100%;
+  max-width: 144px;
+}
+
+.banner-wrapper-1 .banner-details {
+  padding: 25px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-wrapper-1 .banner-logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  margin: 0;
+}
+
+.banner-wrapper-1 .banner-logo-box .main-title {
+  margin: 0 !important;
+  line-height: 90%;
+  position: relative;
+  bottom: 11px;
+}
+
+.banner-wrapper-1 .banner-logo-box .logo-item-1 {
+  width: 100%;
+  max-width: 73px;
+}
+
+.banner-wrapper-1 .banner-logo-box .logo-item-2 {
+  width: 100%;
+  max-width: 178px;
+}
+
+.banner-wrapper-1 .banner-data .btn {
+  width: 100%;
+  max-width: 180px;
+}
+
+.banner-wrapper-1 .banner-data .main-title {
+  margin: 18px 0 25px 0;
+}
+
+/* -------------- slider css start --------------- */
+
+.banner-wrapper-1 .animation-box {
+  position: relative;
+  /* height: 880px; */
+  height: 100%;
+  width: 290px;
+  margin: -30px 155px 0 auto;
+  transform: rotate(7.88deg);
+  -webkit-transform: rotate(7.88deg);
+  -moz-transform: rotate(7.88deg);
+  -ms-transform: rotate(7.88deg);
+  -o-transform: rotate(7.88deg);
+}
+
+.banner-wrapper-1 .animation-box::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(#00000000 #00000000);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-wrapper-1 .rfm-marquee-container {
+  width: inherit !important;
+  overflow-x: visible !important;
+}
+
+.banner-wrapper-1 .animation-main .animation-desktop-main {
+  height: 880px !important;
+  width: 290px !important;
+}
+
+.banner-wrapper-1 .animation-box .rfm-child {
+  height: 286px;
+  width: 286px;
+  border: none;
+  margin: 0px 20px 0px 20px;
+}
+
+.banner-wrapper-1 .animation-box .rfm-child img {
+  border-radius: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+/* -------------- slider css end --------------- */
+/* -------------- mobile slider css end --------------- */
+
+.banner-wrapper-1 .mobile-box {
+  position: absolute;
+  top: -30px;
+  left: auto;
+  right: 10%;
+  /* margin: -30px 10% 0 auto; */
+  height: 100%;
+  width: 160px;
+  transform: rotate(7.88deg);
+  -webkit-transform: rotate(7.88deg);
+  -moz-transform: rotate(7.88deg);
+  -ms-transform: rotate(7.88deg);
+  -o-transform: rotate(7.88deg);
+}
+
+.banner-wrapper-1 .mobile-box::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(#00000000 #00000000);
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-wrapper-1 .mobile-box .rfm-child {
+  height: 150px;
+  width: 150px;
+  border: none;
+}
+
+.banner-wrapper-1 .mobile-box .rfm-child img {
+  border-radius: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+/* -------------- mobile slider css end --------------- */
+
+.banner-wrapper-1 .sol-1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+}
+
+.banner-wrapper-1 .sol-2 {
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  z-index: 1;
+}
+
+.banner-wrapper-1 .sol-3 {
+  position: absolute;
+  top: 250px;
+  right: 0px;
+  z-index: 1;
+}
+
+.banner-wrapper-1 .sol-4 {
+  position: absolute;
+  bottom: 0px;
+  left: 449px;
+  z-index: 1;
+}
+
+.banner-wrapper-1 .round1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 300px;
+  height: 132px;
+  width: 132px;
+  background-color: #57e3e6;
+  filter: blur(279.8999938964844px);
+  -webkit-filter: blur(279.8999938964844px);
+}
+.banner-wrapper-1 .round2 {
+  position: absolute;
+  z-index: -1;
+  top: 358px;
+  right: 396px;
+  height: 132px;
+  width: 132px;
+  background-color: #57e3e6;
+  filter: blur(279.8999938964844px);
+  -webkit-filter: blur(279.8999938964844px);
+}
+.banner-wrapper-1 .round3 {
+  position: absolute;
+  z-index: -1;
+  top: 460px;
+  right: 612px;
+  height: 132px;
+  width: 132px;
+  background-color: #57e3e6;
+  filter: blur(279.8999938964844px);
+  -webkit-filter: blur(279.8999938964844px);
+}
+.banner-wrapper-1 .round4 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 132px;
+  width: 132px;
+  background-color: #57e6aa;
+  filter: blur(130.8999938964844px);
+  -webkit-filter: blur(130.8999938964844px);
+}
+
+/* ------- responsive wrapper -------- */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner-wrapper-1 .banner-details .banner-logo { margin: 0 0 280px 0; }
+  .banner-wrapper-1 .animation-box { height: inherit; margin: -30px 120px 0 auto; }
+  .banner-wrapper-1 .animation-box .rfm-child { height: 240px; width: 240px; border: none; }
+  .banner-wrapper-1 .banner-logo-box .main-title { bottom: 7px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-wrapper-1 .sol-2 { left: 300px; }
+  .banner-wrapper-1 .banner-details .banner-logo { margin: 0 0 280px 0; }
+  .banner-wrapper-1 .animation-box { margin: -30px 0px 0 auto; }
+  .banner-wrapper-1 .animation-box .rfm-child { height: 220px; width: 220px; border: none; }
+  .banner-wrapper-1 .banner-logo-box .main-title { bottom: 7px; }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-wrapper-1 .sol-2 { left: 150px; }
+  .banner-wrapper-1 .banner-main { justify-content: space-between; }
+  .banner-wrapper-1 .banner-details .banner-logo { margin: 0 0 280px 0; }
+  .banner-wrapper-1 .animation-box { margin: -30px 50px 0 0; width: 180px; } .banner-wrapper-1 .animation-box .rfm-child { height: 180px; width: 180px; border: none; }
+  .banner-wrapper-1 .banner-logo-box .logo-item-1 { max-width: 40px; }
+  .banner-wrapper-1 .banner-logo-box .logo-item-2 { max-width: 120px; }
+  .banner-wrapper-1 .sol-4 { left: 310px; }
+  .banner-wrapper-1 .banner-logo-box .main-title { bottom: 5px; }
+}
+
+@media (min-width: 768px) {
+  .banner-wrapper-1 .mobile-box { display: none; }
+}
+
+@media (max-width: 767px) {
+  .banner-wrapper-1 { overflow: hidden; margin: 0 0 -35px 0; } 
+  .banner-wrapper-1 .banner-data .main-title { margin: 28px 0 15px 0; } 
+  .banner-wrapper-1 .banner-details .banner-logo { margin: 0 0 382px 0; } 
+  .banner-wrapper-1 .banner-main .animation-box { display: none; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner-wrapper-1 .sol-2 { left: 150px; } 
+  .banner-wrapper-1 .banner-main { justify-content: space-between; } 
+  .banner-wrapper-1 .animation-box { margin: -30px 50px 0 0; width: 130px; } 
+  .banner-wrapper-1 .animation-box .rfm-child { height: 120px; width: 120px; border: none; } 
+  .banner-wrapper-1 .banner-logo-box .logo-item-1 { max-width: 40px; } 
+  .banner-wrapper-1 .banner-logo-box .logo-item-2 { max-width: 124px; } 
+  .banner-wrapper-1 .sol-4 { left: 310px; } 
+  .banner-wrapper-1 .banner-logo-box .main-title { bottom: 6px; }
+}
+
+@media (min-width: 240px) and (max-width: 575px) {
+  .banner-wrapper-1 .banner-logo-box .logo-item-1 {
+    max-width: 54px;
+  } 
+  .banner-wrapper-1 .banner-logo-box .logo-item-2 { max-width: 100px; } 
+  .banner-wrapper-1 .banner-logo-box { gap: 10px; } 
+  .banner-wrapper-1 .sol-4 { left: 100px; } 
+  .banner-wrapper-1 .sol-2 { display: none; } 
+  .banner-wrapper-1 .mobile-box { margin: -30px 0% 0 auto; height: 100%; width: 130px; } 
+  .banner-wrapper-1 .mobile-box .rfm-child { height: 100px; width: 100px; border: none; } 
+  .banner-wrapper-1 .banner-logo-box .main-title { bottom: 7px; }
+}
+
+@media (max-width: 374px) {
+  .banner-wrapper-1 .banner-logo-box .main-title {
+    bottom: 4px;
+    font-size: 45px;
+  }
+}

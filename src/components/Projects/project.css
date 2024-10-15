@@ -1,0 +1,108 @@
+
+.project-wrapper {
+  position: relative;
+  padding: 40px 0 72px 0;
+}
+
+.project-main .project-data {
+  background-image: url(../../../public/images/project.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 56px 48px 56px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+}
+
+.project-data .title-box {
+  flex: 0 0 174px;
+  padding-top: 25px;
+}
+
+.project-data .project-box {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.project-box .project-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 13px;
+  flex: 0 0 126px;
+}
+
+.project-item .project-img img {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.project-item .project-img {
+  width: 100%;
+}
+
+.project-title h4 {
+  color: #FEFEFE;
+  text-align: center;
+  font-family: "DMSansRegular";
+  font-size: 20px;
+  line-height: normal;
+}
+
+/* ---------- responsive css ----------- */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .project-main .project-data {
+    padding: 50px 48px 50px 80px;
+    gap: 62px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .project-box .project-item {
+    flex: 0 0 122px;
+  }
+  .project-main .project-data { padding: 48px 48px 48px 74px; gap: 62px; }
+  .project-title h4 {font-size: 18px;}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .project-wrapper { padding: 0px 0 62px 0; } 
+  .togather-wrapper { padding: 36px 0 48px 0; } 
+  .project-data .title-box { flex: 0 0 160px; } 
+  .project-box .project-item { flex: 0 0 112px; } 
+  .project-main .project-data { padding: 38px 48px 38px 40px; gap: 42px; }
+  .project-title h4 {font-size: 16px;}
+}
+
+
+@media (max-width: 767px) {
+  .project-main .project-data { background-image: url(../../../public/images/projectM.png);}
+  .project-wrapper { padding: 18px 0 32px 0; } 
+  .project-data .project-box { justify-content: center; column-gap: 12px; row-gap: 18px; } 
+  .project-box .project-item { gap: 8px; } 
+  .project-data .title-box { flex: 0 0 0; text-align: center;padding-top: 0; } 
+  .project-main .project-data { padding: 28px 18px 48px 18px; flex-direction: column; gap: 28px; justify-content: center; }
+  .project-title h4 {font-size: 14px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .project-box .project-item {
+    flex: 0 0 100px;
+  }
+}
+
+@media (min-width: 240px) and (max-width: 575px) {
+  .project-box .project-item {
+    flex: 0 0 70px;
+  }
+}
+

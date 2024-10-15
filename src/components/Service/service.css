@@ -1,0 +1,86 @@
+.services-wrapper {
+  position: relative;
+  padding: 72px 0;
+}
+
+.services-main {
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+}
+
+.services-main .regular-text {
+  padding: 0 0 0 100px;
+}
+
+.services-box ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 72px;
+  row-gap: 50px;
+}
+
+.services-box ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  list-style-type: none;
+  flex: 0 0 45%;
+}
+
+.services-box ul li img {
+  width: 48px;
+}
+
+
+/* --------- responsive css --------- */
+
+@media (min-width: 1300px) and (max-width: 1399px){}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    .services-wrapper {padding: 62px 0;}
+    .services-main {gap: 300px;}
+    .services-box ul {column-gap: 50px;row-gap: 42px;}
+    .services-box ul li img { width: 44px; }
+    .services-main .regular-text { padding: 0 0 0 74px; }
+}
+
+@media (min-width: 992px) and  (max-width: 1199px){
+    .services-wrapper {padding: 54px 0;}
+    .services-main {gap: 200px;}
+    .services-box ul {column-gap: 50px;row-gap: 42px;}
+    .services-box ul li img { width: 40px; }
+    .services-main .regular-text { padding: 0 0 0 74px; }
+}
+
+@media (max-width: 991px) {}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .services-wrapper {padding: 48px 0;}
+    .services-main {gap: 80px;}
+    .services-box ul { column-gap: 38px; row-gap: 42px; }
+    .services-box ul li img { width: 36px;margin: -3px 0 0 0; }
+    .services-main .regular-text { padding: 0 0 0 40px; }
+    .services-box ul li {gap: 18px;}
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 767px) {
+     .services-main .regular-text { padding: 0 0 0 0px; }
+     .services-main {flex-direction: column;gap: 34px;width: fit-content;}
+     .services-box ul {column-gap: 0;row-gap: 12px;width: fit-content;flex-direction: column;}
+     .services-box ul li {flex: 0 0 auto;}
+     .services-box ul li {gap: 12px;}
+     .services-box ul li img {width: 24px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px){}
+
+@media (min-width: 240px) and (max-width: 575px){
+   .services-wrapper {padding: 32px 0;}
+   .services-main {margin: 0 auto;}
+}
+
+@media (max-width:374px) {}

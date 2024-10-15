@@ -1,0 +1,267 @@
+/* ------- banner wrapper -------- */
+.banner-wrapper-2 {
+  position: relative;
+}
+
+.banner-inner-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.banner-main {
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-details .banner-logo {
+  margin: 0 0 314px 0;
+  width: 100%;
+  max-width: 144px;
+}
+
+.banner-details {
+  padding: 25px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+.banner-logo-box .main-title {
+  margin: 0 !important;
+  line-height: 90%;
+  position: relative;
+  bottom: 11px;
+}
+
+.banner-logo-box .logo-item-1 {
+  width: 100%;
+  max-width: 73px;
+}
+
+.banner-logo-box .logo-item-2 {
+  width: 100%;
+  max-width: 178px;
+}
+
+.banner-data .btn {
+  width: 100%;
+  max-width: 180px;
+}
+
+.banner-data .main-title {
+  margin: 18px 0 25px 0;
+}
+
+.banner-wrapper-2 .sol-1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+}
+
+.banner-wrapper-2 .sol-2 {
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  z-index: 1;
+}
+
+.banner-wrapper-2 .sol-3 {
+  position: absolute;
+  top: 250px;
+  right: 0px;
+  z-index: 1;
+}
+
+.banner-wrapper-2 .sol-4 {
+  position: absolute;
+  bottom: 0px;
+  left: 449px;
+  z-index: 1;
+}
+
+.animation-1 {
+  position: absolute;
+  width: 100%;
+  max-width: 230px;
+  object-fit: cover;
+  top: 67px;
+  left: 561px;
+  z-index: 2;
+  transition: transform 0.1s ease-out;
+}
+.animation-2 {
+  position: absolute;
+  width: 100%;
+  max-width: 230px;
+  object-fit: cover;
+  top: 104px;
+  left: 1017px;
+  z-index: 2;
+  transition: transform 0.1s ease-out;
+}
+.animation-3 {
+  position: absolute;
+  width: 100%;
+  max-width: 230px;
+  object-fit: cover;
+  top: 396px;
+  left: 733px;
+  z-index: 2;
+  transition: transform 0.1s ease-out;
+}
+.animation-4 {
+  position: absolute;
+  width: 100%;
+  max-width: 230px;
+  object-fit: cover;
+  top: 436px;
+  left: 1107px;
+  z-index: 2;
+  transition: transform 0.1s ease-out;
+}
+.round1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 300px;
+  height: 132px;
+  width: 132px;
+  background-color: #57e3e6;
+  filter: blur(150.8999938964844px);
+  -webkit-filter: blur(150.8999938964844px);
+}
+.round2 {
+  position: absolute;
+  z-index: -1;
+  top: 358px;
+  right: 396px;
+  height: 132px;
+  width: 132px;
+  background-color: #57e3e6;
+  filter: blur(279.8999938964844px);
+  -webkit-filter: blur(279.8999938964844px);
+}
+.round3 {
+  position: absolute;
+  z-index: -1;
+  top: 460px;
+  right: 612px;
+  height: 132px;
+  width: 132px;
+  background-color: #57e3e6;
+  filter: blur(279.8999938964844px);
+  -webkit-filter: blur(279.8999938964844px);
+}
+.round4 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 132px;
+  width: 132px;
+  background-color: #57e6aa;
+  filter: blur(130.8999938964844px);
+  -webkit-filter: blur(130.8999938964844px);
+}
+/* ------- responsive wrapper -------- */
+
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner-details .banner-logo { margin: 0 0 280px 0; } 
+  .animation-1 { max-width: 200px; left: 490px; } 
+  .animation-2 { max-width: 200px; left: 864px; } 
+  .animation-3 { max-width: 200px; left: 600px; } 
+  .animation-4 { max-width: 200px; left: 944px; } 
+  .banner-logo-box .main-title { bottom: 7px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-wrapper-2 .sol-2 { left: 300px; } 
+  .banner-details .banner-logo { margin: 0 0 280px 0; } 
+  .animation-1 { max-width: 160px; left: 410px; } 
+  .animation-2 { max-width: 160px; left: 720px; } 
+  .animation-3 { max-width: 160px; left: 492px; top: 340px; } 
+  .animation-4 { max-width: 160px; left: 796px; top: 400px; } .banner-logo-box .main-title { bottom: 7px; }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-wrapper-2 .sol-2 { left: 150px; } 
+  .banner-main { justify-content: space-between; } 
+  .banner-details .banner-logo { margin: 0 0 280px 0; } 
+  .banner-logo-box .logo-item-1 { max-width: 40px; } 
+  .banner-logo-box .logo-item-2 { max-width: 120px; }
+   .banner-wrapper-2 .sol-4 { left: 310px; } 
+   .animation-1 { max-width: 140px; left: 320px; } 
+   .animation-2 { max-width: 140px; left: 570px; top: 120px; } 
+   .animation-3 { max-width: 140px; left: 390px; top: 300px; } 
+   .animation-4 { max-width: 140px; left: 580px; top: 400px; } 
+   .banner-logo-box .main-title { bottom: 5px; }
+}
+
+@media (max-width: 767px) {
+  /* .banner-wrapper-2 {
+    background-image: url(../../../public/images/hero-bg-m.png);
+  } */
+
+  .banner-data .main-title { margin: 28px 0 15px 0; } 
+  .banner-details .banner-logo { margin: 0 0 382px 0; } 
+  .animation-1 { max-width: 120px; } 
+  .animation-2 { max-width: 120px; } 
+  .animation-3 { max-width: 120px; } 
+  .animation-4 { max-width: 120px; } 
+  .banner-wrapper-2 .sol-3 { top: 428px; } 
+  .banner-wrapper-2 .sol-1 { display: none; } 
+  .round1 { top: 150px; right: 70px; } 
+  .round2 { top: 50px; right: 100px; } 
+  .round3 { top: 100px; right: 0; } 
+  .round4 { top: 0; right: 0; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner-wrapper-2 .sol-2 { left: 150px; } 
+  .banner-main { justify-content: space-between; } 
+  .banner-logo-box .logo-item-1 { max-width: 40px; } 
+  .banner-logo-box .logo-item-2 { max-width: 120px; } 
+  .banner-wrapper-2 .sol-4 { left: 310px; } 
+  .animation-1 { left: 134px; top: 80px; } 
+  .animation-2 { left: 330px; top: 94px; } 
+  .animation-3 { left: 212px; top: 252px; } 
+  .animation-4 { left: 410px; top: 267px; } 
+  .banner-logo-box .main-title { bottom: 6px; }
+}
+
+@media (min-width: 240px) and (max-width: 575px) {
+  .banner-logo-box .logo-item-1 { max-width: 54px; } 
+  .banner-logo-box .logo-item-2 { max-width: 130px; } 
+  .banner-logo-box { gap: 10px; } 
+  .animation-1 { left: 10px; top: 80px; } 
+  .animation-2 { left: 190px; top: 94px; } 
+  .animation-3 { left: 70px; top: 252px; } 
+  .animation-4 { left: 253px; top: 267px; } 
+  .banner-logo-box .main-title { bottom: 7px; font-size: 58px; }
+}
+
+@media (max-width: 374px) {
+  .animation-2 { left: 176px; } 
+  .animation-3 { left: 30px; } 
+  .animation-4 { left: 195px; } 
+  .banner-logo-box .logo-item-2 { max-width: 110px; } 
+  .banner-logo-box .main-title { bottom: 4px; } 
+  .banner-logo-box .main-title { bottom: 4px; font-size: 45px; }
+}

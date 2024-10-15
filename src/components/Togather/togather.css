@@ -1,0 +1,68 @@
+.togather-wrapper {
+  position: relative;
+  padding: 90px 0 90px 0;
+}
+
+.togather-main .main-title {
+  display: inline-block;
+  line-height: 94%;
+  letter-spacing: -2.7px;
+}
+
+.togather-main .main-title h5 {
+  margin: 0 0px 0 64px;
+}
+
+.togather-main .main-title span {
+  color: lightGreen;
+}
+
+.togather-main .regular-title {
+  line-height: 110%;
+  letter-spacing: -2px;
+  width: fit-content;
+  /* max-width: 681px; */
+  margin: 56px 0 0 auto;
+  text-indent: 101px;
+}
+
+
+/* --------- responsive css ---------- */
+@media (min-width: 1400px) {
+  .togather-main .regular-title {padding: 10px 0 0 0;}
+}
+
+@media (min-width: 1300px) and (max-width: 1399px){}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    .togather-wrapper {padding: 40px 0 52px 0;}
+}
+
+@media (min-width: 992px) and  (max-width: 1199px){
+    .togather-wrapper {padding: 36px 0 48px 0;}
+}
+
+@media (max-width: 991px) {}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .togather-wrapper {padding: 36px 0 48px 0;}
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 767px) {
+     .togather-wrapper {padding: 18px 0 24px 0;}
+     .togather-main .regular-title { font-size: 24px;}
+     .togather-main .main-title h5 { margin: 0 0 0 35px;letter-spacing:-4.5px; }
+     .togather-main .regular-title {font-size: 24px; text-indent: 23px; margin:26px 0 0 auto;width: fit-content;}
+}
+@media (min-width: 576px) and (max-width: 767px){}
+
+@media (min-width: 240px) and (max-width: 575px){
+  .togather-main .regular-title { margin: 26px 0 0 auto; }
+  .togather-main .main-title {letter-spacing: normal;}
+  .togather-main .main-title h5 {letter-spacing:-4.5px;}
+
+}
+
+@media (max-width:391px) {}

@@ -1,0 +1,170 @@
+.touch-wrapper {
+  position: relative;
+  padding: 90px 0 0 0;
+}
+
+.touch-main {
+  position: relative;
+  padding: 33px 0 0 0;
+  background-image: url(../../../public/images/touch.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.touch-main .touch-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 150px;
+  margin: 0 0 43px 0;
+}
+
+.touch-main .btn {
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  padding: 49px 0;
+  text-align: center;
+  background-color: transparent;
+  background-image: url(../../../public/images/btn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.touch-main .btn:hover {
+  opacity: 0.8;
+}
+
+.touch-wrapper .btn .regular-text {
+  color: #0d1014;
+  font-family: "DMSansMedium";
+}
+
+.touch-main .touch-bottom .regular-text {
+  color: #0d1014;
+}
+
+.touch-main .mobile-text {
+  display: none;
+}
+
+.touch-data .touch-left {
+  padding: 0 40px 0 236px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.touch-data .touch-right {
+  position: relative;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.touch-right-box img {
+  border-radius: 100%;
+  border: 13px solid rgba(254, 254, 254, 0.1);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.touch-data .touch-right:after {
+  position: absolute;
+  top: -10px;
+  bottom: 0;
+  left: -111px;
+  right: 0;
+  content: "";
+  border-radius: 571px;
+  background: rgba(87, 230, 170, 0.2);
+  filter: blur(130.1999969482422px);
+  height: 571px;
+  width: 571px;
+  z-index: -1;
+}
+
+.touch-right .touch-right-box {
+  width: 100%;
+  max-width: 348px;
+}
+
+/* ----------- responsive css------------- */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .togather-wrapper { padding: 40px 0 52px 0; } 
+  .touch-data .touch-left { padding: 0 40px 0 180px; gap: 38px; } 
+  .touch-right .touch-right-box { max-width: 320px; } 
+  .touch-main .touch-bottom { padding: 42px 0; } 
+  .touch-data .touch-right:after { left: -80px; top: 0px; height: 400px; width: 500px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .togather-wrapper { padding: 34px 0 46px 0; } 
+  .touch-main .touch-data { gap: 120px; } 
+  .touch-data .touch-left { padding: 0 40px 0 150px; gap: 38px; } 
+  .touch-right .touch-right-box { max-width: 300px; } 
+  .touch-main .touch-bottom { padding: 38px 0; } 
+  .touch-data .touch-right:after { top: 0px; left: -78px; height: 317px; width: 439px; }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .togather-wrapper { padding: 30px 0 40px 0; } 
+  .touch-main .touch-data { gap: 80px; } 
+  .touch-data .touch-left { padding: 0 40px 0 51px; gap: 38px; } 
+  .touch-right .touch-right-box { max-width: 270px; } 
+  .touch-main .touch-bottom { padding: 38px 0; } 
+  .touch-data .touch-right:after { top: 0px; left: -78px; height: 317px; width: 400px; }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+  .touch-main { background-image: url(../../../public/images/touchM.png); }
+   .touch-data .touch-left { width: 100%; padding: 0 0px 0 0px; } 
+   .touch-data .touch-right { width: 100%; } 
+   .touch-main .btn {padding: 40px 0;}
+   .touch-main .touch-data { justify-content: space-between; gap: 10px; margin: 0 0 42px 0; } 
+   .touch-main .mobile-text { display: block; text-align: center; margin: 0 auto 27px auto; } 
+   .touch-right-box img { border: 4px solid rgba(254, 254, 254, 0.1); } 
+   .touch-data .touch-right { width: 100%; } 
+   .touch-main .touch-bottom { padding: 40px 0; } 
+   .touch-data .touch-right:after { display: none; } 
+   .touch-data .touch-left .regular-text { display: none; }
+   .touch-main .btn {
+    background-image: url(../../../public/images/btnM.png);}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .touch-main { padding: 28px 0px 0 0px; } 
+  .touch-main .mobile-text {padding:  0 20px;}
+  .touch-main .touch-data {padding:  0 20px;}
+  .touch-data .touch-left { padding: 0 0px 0 0px; gap: 38px; } 
+  .touch-right .touch-right-box { max-width: 200px; } 
+  .touch-main .touch-bottom { padding: 38px 0; } 
+  .touch-data .touch-right:after { top: 0px; left: -78px; height: 317px; width: 400px; }
+}
+
+@media (min-width: 240px) and (max-width: 575px) {
+  .touch-main { padding: 28px 0px 0 0px; } 
+  .touch-main .mobile-text {padding:  0 10px;}
+  .touch-main .touch-data {padding:  0 10px;}
+  .touch-right .touch-right-box { max-width: 144px; }
+  .touch-wrapper .btn .regular-text {padding-right: 10px;}
+}
+
+@media (max-width: 374px) {
+  .touch-wrapper .btn .regular-text {padding-right: 0px;}
+
+}

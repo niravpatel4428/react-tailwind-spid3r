@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "DMSansMedium";
+  src: url("DMSansMedium.eot");
+  src: url("DMSansMedium.eot") format("embedded-opentype"),
+    url("DMSansMedium.woff2") format("woff2"),
+    url("DMSansMedium.woff") format("woff"),
+    url("DMSansMedium.ttf") format("truetype"),
+    url("DMSansMedium.svg#DMSansMedium") format("svg");
+}
+
+@font-face {
+  font-family: "DMSansRegular";
+  src: url("DMSansRegular.eot");
+  src: url("DMSansRegular.eot") format("embedded-opentype"),
+    url("DMSansRegular.woff2") format("woff2"),
+    url("DMSansRegular.woff") format("woff"),
+    url("DMSansRegular.ttf") format("truetype"),
+    url("DMSansRegular.svg#DMSansRegular") format("svg");
+}
